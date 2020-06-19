@@ -23,6 +23,7 @@ body {
 
 .container {
   height: 100%;
+    width: 100%;
 }
 
 header {
@@ -30,6 +31,7 @@ header {
 }
 
 main {
+    width: 500px;
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
@@ -143,7 +145,6 @@ i{
 
 footer {
   margin: 3em auto;
-  font-size: 0.8em;
   font-weight: 700;
 }
 
