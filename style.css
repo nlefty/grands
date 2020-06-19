@@ -81,6 +81,8 @@ i{
 
 .grand-card {
   -webkit-perspective: 150rem;
+     -moz-perspective: 150rem;
+       -o-perspective: 150rem;
           perspective: 150rem;
   height: 7rem;
   width: 100%;
@@ -92,12 +94,16 @@ i{
   height: 100%;
   width: 100%;
   -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
   position: absolute;
   top: 0;
   left: 0;
   margin: auto;
   -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+       -o-backface-visibility: hidden;
           backface-visibility: hidden;
   border-radius: 5px;
   overflow: hidden;
@@ -107,19 +113,25 @@ i{
 
 .grand-facts {  
   -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+       -o-transform: rotateY(180deg);
           transform: rotateY(180deg);
    background-color: #D6E3F8;
 }
 
 .grand-card:hover .grand-name {
   -webkit-transform: rotateY(-180deg);
+     -moz-transform: rotateY(-180deg);
+       -o-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
 .grand-card:hover .grand-facts {
   -webkit-transform: rotateY(0deg);
+     -moz-transform: rotateY(0deg);
+       -o-transform: rotateY(0deg);
           transform: rotateY(0deg);
-          background-color: #D6E3F8;
-          color: #584B53;
+   background-color: #D6E3F8;
+   color: #584B53;
 }
 
 .grand-name, .grand-facts {
